@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RW4JFM08M0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RW4JFM08M0');
+    </script>
+    <!-- Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Naked Density Project</title>
+    <meta name="Naked Density Project" content="urban analytics">
+
+    <meta property="og:title" content="Naked Density Project">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/teemuja/teemuja.github.io">
+    <meta property="og:description" content="
+    Naked Density Project is a PhD research project by Teemu Jama in Aalto University Finland. NDP project studies correlation between urban density and SDG-goals by applying latest spatial data analytics and machine learning.
+    ">
+    <meta property="og:image" content="Qrobo.png">
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+    body {
+      margin: 0;
+    }
+
+    iframe {
+      display: block;
+      background: #000;
+      border: none;
+      height: 100vh;
+      width: 100vw;
+    }
+    </style>
+
+    <title>Data Papers</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="brand"><a href="/">Naked Density Project</a></div>
+      <nav>
+        <ul>
+          <li><a href="https://github.com/teemuja/teemuja.github.io">Home</a></li>
+          <li><a href="ndp1.html">Data Paper 1 - ENG</a></li>
+          <li><a href="ndp1.html">Data Paper 2 - FIN</a></li>
+          <li><a href="ndp1.html">Data Paper 3 - FIN</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="ndp1.html">Data Paper 1</a></li>
+          <li><a href="ndp1.html">Data Paper 2</a></li>
+          <li><a href="ndp1.html">Data Paper 3</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <iframe src="https://share.streamlit.io/teemuja/ndp_app1/main/NDP_d1.py"> Your browser doesn't support iframes
+    </iframe>
+
+    <script src="index.js"></script>
+  </body>
+</html>
